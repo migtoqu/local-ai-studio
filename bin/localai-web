@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Wrapper: ejecuta localai.server desde la raíz del proyecto con el entorno de uv.
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+exec uv run --quiet --project "$ROOT" --directory "$ROOT" python -m localai.server "$@"

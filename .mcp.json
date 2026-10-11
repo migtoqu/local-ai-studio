@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "local-ai": {
+      "command": "/Users/migueltoquerobaron/Desktop/Repositorios/local-ai-studio/bin/localai-mcp",
+      "args": []
+    }
+  }
+}
